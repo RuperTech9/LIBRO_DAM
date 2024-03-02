@@ -35,6 +35,5 @@ public class C12_Anagramas {
                 System.out.println("No son anagramas");
             }
         }
-
     }
 }
