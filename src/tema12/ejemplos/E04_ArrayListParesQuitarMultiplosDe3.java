@@ -9,10 +9,11 @@ import java.util.Scanner;
 /**
  * Aplicación que pida por consola números enteros no negativos hasta que se introduce -1. Los números se irán insertando en una colección, pudiéndose repetir.
  * Al terminar se mostrará la colección por pantalla. A continuación se mostrarán todos los valores pares.
- * Por último se eliminarán todos los múltiplos de 3 y se mostrará por pantalla la colección resultante
+ * Por último se eliminarán todos los múltiplos de 3 y se mostrará por pantalla la colección resultante.
+ * 
  * @author Ruper
  */
-public class E04_CollectionParesQuitarMultiplosDe3 {
+public class E04_ArrayListParesQuitarMultiplosDe3 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         Collection<Integer> numeros = new ArrayList<>(); // Las listas permiten repetidos
