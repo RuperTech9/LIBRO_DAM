@@ -25,4 +25,24 @@ public class E12_UnionInterseccion {
         return interseccion;
     }
     
+    public static void main(String[] args) {
+        // Crear conjuntos de ejemplo
+        Set<Integer> conjunto1 = new HashSet<>();
+        conjunto1.add(1);
+        conjunto1.add(2);
+        conjunto1.add(3);
+        
+        Set<Integer> conjunto2 = new HashSet<>();
+        conjunto2.add(3);
+        conjunto2.add(4);
+        conjunto2.add(5);
+
+        // Probar la unión de los conjuntos
+        Set<Integer> union = E12_UnionInterseccion.union(conjunto1, conjunto2);
+        System.out.println("Unión de conjunto1 y conjunto2: " + union);
+
+        // Probar la intersección de los conjuntos
+        Set<Integer> interseccion = E12_UnionInterseccion.interseccion(conjunto1, conjunto2);
+        System.out.println("Intersección de conjunto1 y conjunto2: " + interseccion);
+    }
 }
