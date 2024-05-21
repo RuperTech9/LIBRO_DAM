@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 public class E14_RegistroTemperaturas {
     static List<Registro> registros = new ArrayList<>();
     static DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
-    static String rutaRegistros = ".\\src\\tema12\\ejemplos\\registros.txt" + LocalDate.now().format(dateFormatter) + ".txt";
+    static String rutaRegistros = ".\\src\\tema12\\ejemplos\\registros." + LocalDate.now().format(dateFormatter) + ".txt";
 
     public static void main(String[] args) {
         mostrarMenu();
